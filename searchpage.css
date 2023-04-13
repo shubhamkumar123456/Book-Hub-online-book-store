@@ -60,3 +60,31 @@ cursor: pointer;
     box-shadow: 0 0 6px 4px rgb(239, 110, 59);
    cursor: pointer;
 }
+.@media only screen and (max-width: 984px){
+    .container{
+        display: grid;
+        grid-template-columns:repeat(4,1fr);
+        
+    }
+}
+@media only screen and (max-width: 768px){
+    .container{
+        display: grid;
+        grid-template-columns:repeat(3,1fr);
+        
+    }
+}
+@media only screen and (max-width: 593px){
+    .container{
+        display: grid;
+        grid-template-columns:repeat(2,1fr);
+        
+    }
+}
+@media only screen and (max-width: 412px){
+    .container{
+        display: grid;
+        grid-template-columns:repeat(1,1fr);
+        
+    }
+}
