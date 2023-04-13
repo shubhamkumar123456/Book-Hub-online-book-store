@@ -84,7 +84,7 @@ classicbtn.onclick=()=>{
     window.location.href="signUp.html"
  }
  logo.onclick=()=>{
-    window.location.href="navbar.html"
+    window.location.href="index.html"
  }
 
  cart_icon.onclick=()=>{
